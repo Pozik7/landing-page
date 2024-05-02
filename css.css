@@ -8,7 +8,7 @@
 
 .container {
   display: flex;
-height: 100vh;
+  height: 100vh;
 }
 
 .left-side {
@@ -28,28 +28,22 @@ height: 100vh;
 }
 
 .top-circle {
-position: absolute;
-top: 0px
+  position: absolute;
+  top: 0px
 }
 
 .middle-circle {
-position: absolute;
-right: -70px;
+  position: absolute;
+  right: -70px;
 
-transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .bottom-circle {
-position: absolute;
-bottom: -10px;
-right: 20px;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
 }
-
-
-
-
-
-
 
 ::selection {
   background: #8a2be2;
